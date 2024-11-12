@@ -21865,14 +21865,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"100":"Continue","101":"Switching Pro
 var __webpack_exports__ = {};
 const express = __nccwpck_require__(5835)
 const app = express()
-app.listen(3000, () => {
-    console.log("listening on port 3000");
-})
-
-app.get('/actions', (req, res) => {
-    res.send('hello from actions');
-})
-
+console.log("hello from js ")
 
 
 module.exports = __webpack_exports__;
