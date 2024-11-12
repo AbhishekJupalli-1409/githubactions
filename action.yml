@@ -1,0 +1,15 @@
+name: 'Thank You Action'
+description: 'Say thank you to new pull request'
+author: 'Abhishek Jupalli'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
